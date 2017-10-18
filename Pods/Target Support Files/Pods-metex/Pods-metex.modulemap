@@ -1,0 +1,6 @@
+framework module Pods_metex {
+  umbrella header "Pods-metex-umbrella.h"
+
+  export *
+  module * { export * }
+}

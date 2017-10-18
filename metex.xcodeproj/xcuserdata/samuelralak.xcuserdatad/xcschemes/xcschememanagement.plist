@@ -7,7 +7,25 @@
 		<key>metex.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>4</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>191A30B71F939EA300509272</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>191A30CB1F939EA300509272</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>191A30D61F939EA300509272</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

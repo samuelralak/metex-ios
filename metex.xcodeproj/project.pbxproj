@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		191420741F9409540072375E /* \().swift in Sources */ = {isa = PBXBuildFile; fileRef = 191420731F9409540072375E /* \().swift */; };
+		191420761F940E950072375E /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191420751F940E950072375E /* CurrentWeather.swift */; };
 		191A30BC1F939EA300509272 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191A30BB1F939EA300509272 /* AppDelegate.swift */; };
 		191A30BE1F939EA300509272 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191A30BD1F939EA300509272 /* ViewController.swift */; };
 		191A30C11F939EA300509272 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 191A30BF1F939EA300509272 /* Main.storyboard */; };
@@ -14,6 +16,12 @@
 		191A30C61F939EA300509272 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 191A30C41F939EA300509272 /* LaunchScreen.storyboard */; };
 		191A30D11F939EA300509272 /* metexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191A30D01F939EA300509272 /* metexTests.swift */; };
 		191A30DC1F939EA300509272 /* metexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191A30DB1F939EA300509272 /* metexUITests.swift */; };
+		192534471F94CF580017D528 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192534461F94CF580017D528 /* Forecast.swift */; };
+		192534491F94FAD10017D528 /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192534481F94FAD10017D528 /* WeatherCell.swift */; };
+		19C208C81F955E3800D70278 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C208C71F955E3800D70278 /* Location.swift */; };
+		1BF4C406B32B0658A05D91FD /* Pods_metexTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67BBEDEEA50F8873E1DDDED2 /* Pods_metexTests.framework */; };
+		2E1AB66B3806B57002E2064F /* Pods_metexUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57DFB3CA2A7DDB985F8969E0 /* Pods_metexUITests.framework */; };
+		536A4056D06B41692C3A669C /* Pods_metex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DF678CA821515C238846FD4 /* Pods_metex.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		191420731F9409540072375E /* \().swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "\\().swift"; sourceTree = "<group>"; };
+		191420751F940E950072375E /* CurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
 		191A30B81F939EA300509272 /* metex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = metex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		191A30BB1F939EA300509272 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		191A30BD1F939EA300509272 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,18 @@
 		191A30D71F939EA300509272 /* metexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = metexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		191A30DB1F939EA300509272 /* metexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = metexUITests.swift; sourceTree = "<group>"; };
 		191A30DD1F939EA300509272 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		192534461F94CF580017D528 /* Forecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
+		192534481F94FAD10017D528 /* WeatherCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCell.swift; sourceTree = "<group>"; };
+		19C208C71F955E3800D70278 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		2108749AD77379DC827B5F5C /* Pods-metex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-metex.debug.xcconfig"; path = "Pods/Target Support Files/Pods-metex/Pods-metex.debug.xcconfig"; sourceTree = "<group>"; };
+		2DF678CA821515C238846FD4 /* Pods_metex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_metex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E2053D98382412CF1C4BED2 /* Pods-metex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-metex.release.xcconfig"; path = "Pods/Target Support Files/Pods-metex/Pods-metex.release.xcconfig"; sourceTree = "<group>"; };
+		3FF8089F1296D6151B7E7266 /* Pods-metexUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-metexUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-metexUITests/Pods-metexUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		48E9696E0FADB4C7522171E8 /* Pods-metexTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-metexTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-metexTests/Pods-metexTests.release.xcconfig"; sourceTree = "<group>"; };
+		57DFB3CA2A7DDB985F8969E0 /* Pods_metexUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_metexUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67BBEDEEA50F8873E1DDDED2 /* Pods_metexTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_metexTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0A3DC2E1191774DAB0FC3B1 /* Pods-metexTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-metexTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-metexTests/Pods-metexTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E1BE17D057ED7EFA5597B4E6 /* Pods-metexUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-metexUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-metexUITests/Pods-metexUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				536A4056D06B41692C3A669C /* Pods_metex.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BF4C406B32B0658A05D91FD /* Pods_metexTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E1AB66B3806B57002E2064F /* Pods_metexUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +106,8 @@
 				191A30CF1F939EA300509272 /* metexTests */,
 				191A30DA1F939EA300509272 /* metexUITests */,
 				191A30B91F939EA300509272 /* Products */,
+				CD2FF17DA2C90530423B1A9D /* Pods */,
+				A5B80A44C0A0895F87911387 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +130,11 @@
 				191A30C21F939EA300509272 /* Assets.xcassets */,
 				191A30C41F939EA300509272 /* LaunchScreen.storyboard */,
 				191A30C71F939EA300509272 /* Info.plist */,
+				191420731F9409540072375E /* \().swift */,
+				191420751F940E950072375E /* CurrentWeather.swift */,
+				192534461F94CF580017D528 /* Forecast.swift */,
+				192534481F94FAD10017D528 /* WeatherCell.swift */,
+				19C208C71F955E3800D70278 /* Location.swift */,
 			);
 			path = metex;
 			sourceTree = "<group>";
@@ -125,6 +157,29 @@
 			path = metexUITests;
 			sourceTree = "<group>";
 		};
+		A5B80A44C0A0895F87911387 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DF678CA821515C238846FD4 /* Pods_metex.framework */,
+				67BBEDEEA50F8873E1DDDED2 /* Pods_metexTests.framework */,
+				57DFB3CA2A7DDB985F8969E0 /* Pods_metexUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD2FF17DA2C90530423B1A9D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2108749AD77379DC827B5F5C /* Pods-metex.debug.xcconfig */,
+				2E2053D98382412CF1C4BED2 /* Pods-metex.release.xcconfig */,
+				D0A3DC2E1191774DAB0FC3B1 /* Pods-metexTests.debug.xcconfig */,
+				48E9696E0FADB4C7522171E8 /* Pods-metexTests.release.xcconfig */,
+				3FF8089F1296D6151B7E7266 /* Pods-metexUITests.debug.xcconfig */,
+				E1BE17D057ED7EFA5597B4E6 /* Pods-metexUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 191A30E01F939EA300509272 /* Build configuration list for PBXNativeTarget "metex" */;
 			buildPhases = (
+				7E8403C6297A591B17975A2A /* [CP] Check Pods Manifest.lock */,
 				191A30B41F939EA300509272 /* Sources */,
 				191A30B51F939EA300509272 /* Frameworks */,
 				191A30B61F939EA300509272 /* Resources */,
+				BF988E21735149276510ECA2 /* [CP] Embed Pods Frameworks */,
+				1551FB7700D22F4C91973297 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 191A30E31F939EA300509272 /* Build configuration list for PBXNativeTarget "metexTests" */;
 			buildPhases = (
+				5FD181354D81E7B0486FA2E2 /* [CP] Check Pods Manifest.lock */,
 				191A30C81F939EA300509272 /* Sources */,
 				191A30C91F939EA300509272 /* Frameworks */,
 				191A30CA1F939EA300509272 /* Resources */,
+				2945B606AFB8CB42854049AC /* [CP] Embed Pods Frameworks */,
+				5029F5D59364B000F57DABA8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 191A30E61F939EA300509272 /* Build configuration list for PBXNativeTarget "metexUITests" */;
 			buildPhases = (
+				F36DEFCF8407C9BBCD53CE8F /* [CP] Check Pods Manifest.lock */,
 				191A30D31F939EA300509272 /* Sources */,
 				191A30D41F939EA300509272 /* Frameworks */,
 				191A30D51F939EA300509272 /* Resources */,
+				F68BCA92B682AA255CF039CF /* [CP] Embed Pods Frameworks */,
+				77B1CCB701ADFE16DE175B5A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,6 +318,156 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1551FB7700D22F4C91973297 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-metex/Pods-metex-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2945B606AFB8CB42854049AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-metexTests/Pods-metexTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5029F5D59364B000F57DABA8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-metexTests/Pods-metexTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FD181354D81E7B0486FA2E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-metexTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77B1CCB701ADFE16DE175B5A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-metexUITests/Pods-metexUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E8403C6297A591B17975A2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-metex-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF988E21735149276510ECA2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-metex/Pods-metex-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-metex/Pods-metex-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F36DEFCF8407C9BBCD53CE8F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-metexUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F68BCA92B682AA255CF039CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-metexUITests/Pods-metexUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		191A30B41F939EA300509272 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +475,11 @@
 			files = (
 				191A30BE1F939EA300509272 /* ViewController.swift in Sources */,
 				191A30BC1F939EA300509272 /* AppDelegate.swift in Sources */,
+				192534491F94FAD10017D528 /* WeatherCell.swift in Sources */,
+				191420761F940E950072375E /* CurrentWeather.swift in Sources */,
+				191420741F9409540072375E /* \().swift in Sources */,
+				192534471F94CF580017D528 /* Forecast.swift in Sources */,
+				19C208C81F955E3800D70278 /* Location.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,11 +643,13 @@
 		};
 		191A30E11F939EA300509272 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2108749AD77379DC827B5F5C /* Pods-metex.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LEE4TD5P6V;
 				INFOPLIST_FILE = metex/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ralak.personal.metex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,11 +660,13 @@
 		};
 		191A30E21F939EA300509272 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E2053D98382412CF1C4BED2 /* Pods-metex.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LEE4TD5P6V;
 				INFOPLIST_FILE = metex/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ralak.personal.metex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -454,6 +677,7 @@
 		};
 		191A30E41F939EA300509272 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0A3DC2E1191774DAB0FC3B1 /* Pods-metexTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +695,7 @@
 		};
 		191A30E51F939EA300509272 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48E9696E0FADB4C7522171E8 /* Pods-metexTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +713,7 @@
 		};
 		191A30E71F939EA300509272 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FF8089F1296D6151B7E7266 /* Pods-metexUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +730,7 @@
 		};
 		191A30E81F939EA300509272 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1BE17D057ED7EFA5597B4E6 /* Pods-metexUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
